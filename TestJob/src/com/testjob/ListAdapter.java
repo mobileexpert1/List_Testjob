@@ -17,7 +17,7 @@ public class ListAdapter  extends BaseAdapter
 	LayoutInflater mInflater = null;
 	Context context;
 
-	List<property> listrow =  new ArrayList<property>();
+	List<Property> listrow =  new ArrayList<Property>();
 
 	int[] images = {R.drawable.tumblr,R.drawable.twitter,R.drawable.whatsapp};
 
@@ -26,7 +26,7 @@ public class ListAdapter  extends BaseAdapter
 
 		for (int i = 1; i <= 10000; i++) {
 
-			property prop = new property();
+			Property prop = new Property();
 			Random r = new Random();
 			int i1 = r.nextInt(3 - 0) + 0;
 
